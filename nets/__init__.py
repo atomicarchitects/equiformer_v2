@@ -1,0 +1,1 @@
+from .equiformer_v2s.equiformer_v2s_oc20 import EquiformerV2S_OC20
