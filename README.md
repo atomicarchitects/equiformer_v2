@@ -106,9 +106,9 @@ To train on different splits like All and All+MD, we can follow the same link ab
 We provide the checkpoints of EquiformerV2 trained on S2EF-2M dataset for 30 epochs, EquiformerV2 (31M) trained on S2EF-All+MD, and EquiformerV2 (153M) trained on S2EF-All+MD.
 |Model	|Split	|Download	|val force MAE (meV / Å) |val energy MAE (meV) |
 |---	|---	|---	|---	|---	| 
-|EquiformerV2	|2M	|[checkpoint](https://www.dropbox.com/s/rtdo05g12wh66vb/equiformer_v2_N%4012_L%406_M%402_epochs%4030_splits%402M.pt?dl=0) \| [config](oc20/configs/s2ef/2M/equiformer_v2s/equiformer_v2s_N@12_L@6_M@2_epochs@30.yml)	|19.4 | 278 |
-|EquiformerV2 (31M)|All+MD |[checkpoint](https://www.dropbox.com/s/4es5poqeksz68sz/equiformer_v2_N%408_L%404_M%402_epochs%403_splits%40all%2Bmd.pt?dl=0) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@8_L@4_M@2_31M.yml) |16.3 | 232 |
-|EquiformerV2 (153M) |All+MD | [checkpoint](https://www.dropbox.com/s/m7jov7s6bwb3r89/equiformer_v2_N%4020_L%406_M%403_epochs%401_splits%40all%2Bmd.pt?dl=0) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@20_L@6_M@3_153M.yml) |15.0 | 227 |
+|EquiformerV2	|2M	|[checkpoint](dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_83M_2M.pt) \| [config](oc20/configs/s2ef/2M/equiformer_v2s/equiformer_v2s_N@12_L@6_M@2_epochs@30.yml)	|19.4 | 278 |
+|EquiformerV2 (31M)|All+MD |[checkpoint](dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_31M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@8_L@4_M@2_31M.yml) |16.3 | 232 |
+|EquiformerV2 (153M) |All+MD | [checkpoint](dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_153M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@20_L@6_M@3_153M.yml) |15.0 | 227 |
 
 
 ## Citation ##
