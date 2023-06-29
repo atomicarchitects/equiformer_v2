@@ -21,6 +21,7 @@ We provide the code for training the base model setting on the OC20 S2EF-2M and 
 
 ## Content ##
 0. [Environment Setup](#environment-setup)
+0. [Changelog](#changelog)
 0. [Training](#training)
 0. [File Structure](#file-structure)
 0. [Checkpoints](#checkpoints)
@@ -57,6 +58,12 @@ After downloading, place the datasets under `datasets/oc20/` by using `ln -s`:
 ```
 
 To train on different splits like All and All+MD, we can follow the same link above to download the datasets.
+
+
+## Changelog ##
+
+
+Please refer to [here](docs/changelog.md).
 
 
 ## Training ##
