@@ -32,7 +32,7 @@ from .so3 import (
     SO3_Rotation,
     SO3_LinearV2
 )
-from .escn_eff import ModuleListInfo
+from .module_list import ModuleListInfo
 from .so2_ops import SO2_Convolution
 from .radial_function import RadialFunction
 from .layer_norm import (
@@ -45,14 +45,9 @@ from .layer_norm import (
 from .transformer_block import (
     SO2EquivariantGraphAttention,
     FeedForwardNetwork,
-    TransBlockV2S, 
+    TransBlockV2, 
 )
 from .input_block import EdgeDegreeEmbedding
-from .output_block import (
-    EnergyBlock, 
-    EnergyBlockV2,
-    ForceBlock,
-)
 
 
 # Statistics of IS2RE 100K 
@@ -60,8 +55,8 @@ _AVG_NUM_NODES  = 77.81317
 _AVG_DEGREE     = 23.395238876342773    # IS2RE: 100k, max_radius = 5, max_neighbors = 100
 
 
-@registry.register_model("equiformer_v2s")
-class EquiformerV2S_OC20(BaseModel):
+@registry.register_model("equiformer_v2")
+class EquiformerV2_OC20(BaseModel):
     """
     Equiformer with graph attention built upon SO(2) convolution and feedforward network built upon S2 activation
 
@@ -283,7 +278,7 @@ class EquiformerV2S_OC20(BaseModel):
         # Initialize the blocks for each layer of EquiformerV2
         self.blocks = nn.ModuleList()
         for i in range(self.num_layers):
-            block = TransBlockV2S(
+            block = TransBlockV2(
                 self.sphere_channels,
                 self.attn_hidden_channels,
                 self.num_heads,

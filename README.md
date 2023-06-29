@@ -67,7 +67,7 @@ To train on different splits like All and All+MD, we can follow the same link ab
 1. We train EquiformerV2 on the OC20 **S2EF-2M** dataset by running:
     
     ```bash
-        sh scripts/train/oc20/s2ef/equiformer_v2s/equiformer_v2s_N@12_L@6_M@2_splits@2M_g@multi-nodes.sh
+        sh scripts/train/oc20/s2ef/equiformer_v2/equiformer_v2_N@12_L@6_M@2_splits@2M_g@multi-nodes.sh
     ```
     The above script uses 2 nodes with 8 GPUs on each node.
     
@@ -76,18 +76,18 @@ To train on different splits like All and All+MD, we can follow the same link ab
 
     We can also run training on 8 GPUs on 1 node:
     ```bash
-        sh scripts/train/oc20/s2ef/equiformer_v2s/equiformer_v2s_N@12_L@6_M@2_splits@2M_g@8.sh
+        sh scripts/train/oc20/s2ef/equiformer_v2/equiformer_v2_N@12_L@6_M@2_splits@2M_g@8.sh
     ```
 
 2. We train **EquiformerV2 (153M)** on OC20 **S2EF-All+MD** by running:
     ```bash
-        sh scripts/train/oc20/s2ef/equiformer_v2s/equiformer_v2s_N@20_L@6_M@3_splits@all+md_g@multi-nodes.sh
+        sh scripts/train/oc20/s2ef/equiformer_v2/equiformer_v2_N@20_L@6_M@3_splits@all+md_g@multi-nodes.sh
     ```
     The above script uses 16 nodes with 8 GPUs on each node.
 
 3. We train **EquiformerV2 (31M)** on OC20 **S2EF-All+MD** by running:
     ```bash
-        sh scripts/train/oc20/s2ef/equiformer_v2s/equiformer_v2s_N@8_L@4_M@2_splits@all+md_g@multi-nodes.sh
+        sh scripts/train/oc20/s2ef/equiformer_v2/equiformer_v2_N@8_L@4_M@2_splits@all+md_g@multi-nodes.sh
     ```
     The above script uses 8 nodes with 8 GPUs on each node.
     
@@ -106,9 +106,9 @@ To train on different splits like All and All+MD, we can follow the same link ab
 We provide the checkpoints of EquiformerV2 trained on S2EF-2M dataset for 30 epochs, EquiformerV2 (31M) trained on S2EF-All+MD, and EquiformerV2 (153M) trained on S2EF-All+MD.
 |Model	|Split	|Download	|val force MAE (meV / Å) |val energy MAE (meV) |
 |---	|---	|---	|---	|---	| 
-|EquiformerV2	|2M	|[checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_83M_2M.pt) \| [config](oc20/configs/s2ef/2M/equiformer_v2s/equiformer_v2s_N@12_L@6_M@2_epochs@30.yml)	|19.4 | 278 |
-|EquiformerV2 (31M)|All+MD |[checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_31M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@8_L@4_M@2_31M.yml) |16.3 | 232 |
-|EquiformerV2 (153M) |All+MD | [checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_153M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2s/equiformer_v2s_N@20_L@6_M@3_153M.yml) |15.0 | 227 |
+|EquiformerV2	|2M	|[checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_83M_2M.pt) \| [config](oc20/configs/s2ef/2M/equiformer_v2/equiformer_v2_N@12_L@6_M@2_epochs@30.yml)	|19.4 | 278 |
+|EquiformerV2 (31M)|All+MD |[checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_31M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2/equiformer_v2_N@8_L@4_M@2_31M.yml) |16.3 | 232 |
+|EquiformerV2 (153M) |All+MD | [checkpoint](https://dl.fbaipublicfiles.com/opencatalystproject/models/2023_06/oc20/s2ef/eq2_153M_ec4_allmd.pt) \| [config](oc20/configs/s2ef/all_md/equiformer_v2/equiformer_v2_N@20_L@6_M@3_153M.yml) |15.0 | 227 |
 
 
 ## Citation ##

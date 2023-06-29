@@ -31,7 +31,7 @@ from .so3 import (
     SO3_LinearV2
 )
 from .radial_function import RadialFunction
-from ..drop import (
+from .drop import (
     GraphDropPath, 
     EquivariantDropoutArraySphericalHarmonics
 )
@@ -451,7 +451,7 @@ class FeedForwardNetwork(torch.nn.Module):
         return input_embedding       
 
 
-class TransBlockV2S(torch.nn.Module):
+class TransBlockV2(torch.nn.Module):
     """
 
     Args:
@@ -527,7 +527,7 @@ class TransBlockV2S(torch.nn.Module):
         drop_path_rate=0.0, 
         proj_drop=0.0
     ):
-        super(TransBlockV2S, self).__init__()
+        super(TransBlockV2, self).__init__()
 
         max_lmax = max(lmax_list)
         self.norm_1 = get_normalization_layer(norm_type, lmax=max_lmax, num_channels=sphere_channels)
