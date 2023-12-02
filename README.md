@@ -13,11 +13,19 @@ Additionally, EquiformerV2 has been incorporated into [OCP repository](https://g
 </p>
 
 <p align="center">
+	<img src="fig/equiformer_v2_speed_accuracy_tradeoffs.png" alt="photo not available" width="98%" height="98%">
+</p>
+
+<p align="center">
 	<img src="fig/equiformer_v2_oc20_results.png" alt="photo not available" width="98%" height="98%">
 </p>
 
 <p align="center">
 	<img src="fig/equiformer_v2_adsorbml_results.png" alt="photo not available" width="98%" height="98%">
+</p>
+
+<p align="center">
+	<img src="fig/equiformer_v2_oc22_results.png" alt="photo not available" width="98%" height="98%">
 </p>
 
 
@@ -128,7 +136,7 @@ Please consider citing the works below if this repository is helpful:
     ```bibtex
     @article{equiformer_v2,
       title={EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations}, 
-      author={Yi-Lun Liao and Brandon Wood and Abhishek Das and Tess Smidt},
+      author={Yi-Lun Liao and Brandon Wood and Abhishek Das* and Tess Smidt*},
       year={2023},
       journal={arxiv preprint arxiv:2306.12059}
     }
