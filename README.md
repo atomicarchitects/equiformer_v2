@@ -1,8 +1,8 @@
 # EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations
 
-**[Paper](https://arxiv.org/abs/2306.12059)** | **[OpenReview](https://openreview.net/forum?id=mCOBKZmrzD)** | **[Poster](docs/equiformer_v2_poster.pdf)** |
+**[Paper](https://arxiv.org/abs/2306.12059)** | **[OpenReview](https://openreview.net/forum?id=mCOBKZmrzD)** | **[Poster](docs/equiformer_v2_poster.pdf)**
 
-This repository contains the official PyTorch implementation of the work "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations".
+This repository contains the official PyTorch implementation of the work "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations" (ICLR 2024).
 We provide the code for training the base model setting on the OC20 S2EF-2M and S2EF-All+MD datasets.
 
 Additionally, EquiformerV2 has been incorporated into [OCP repository](https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/equiformer_v2) and used in [Open Catalyst demo](https://open-catalyst.metademolab.com/).
@@ -134,11 +134,13 @@ Please consider citing the works below if this repository is helpful:
 
 - [EquiformerV2](https://arxiv.org/abs/2306.12059):
     ```bibtex
-    @article{equiformer_v2,
-      title={EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations}, 
-      author={Yi-Lun Liao and Brandon Wood and Abhishek Das* and Tess Smidt*},
-      year={2023},
-      journal={arxiv preprint arxiv:2306.12059}
+    @inproceedings{
+        equiformer_v2,
+        title={{EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations}}, 
+        author={Yi-Lun Liao and Brandon Wood and Abhishek Das* and Tess Smidt*},
+        booktitle={International Conference on Learning Representations (ICLR)},
+        year={2024},
+        url={https://openreview.net/forum?id=mCOBKZmrzD}
     }
     ```
 
