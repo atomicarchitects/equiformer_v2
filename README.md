@@ -1,6 +1,6 @@
 # EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations
 
-**[Paper](https://arxiv.org/abs/2306.12059)**
+**[Paper](https://arxiv.org/abs/2306.12059)** | **[OpenReview](https://openreview.net/forum?id=mCOBKZmrzD)** | **[Poster](docs/equiformer_v2_poster.pdf)** |
 
 This repository contains the official PyTorch implementation of the work "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations".
 We provide the code for training the base model setting on the OC20 S2EF-2M and S2EF-All+MD datasets.
