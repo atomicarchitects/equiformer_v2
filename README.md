@@ -5,7 +5,7 @@
 This repository contains the official PyTorch implementation of the work "EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations" (ICLR 2024).
 We provide the code for training the base model setting on the OC20 S2EF-2M and S2EF-All+MD datasets.
 
-Additionally, EquiformerV2 has been incorporated into [OCP repository](https://github.com/Open-Catalyst-Project/ocp/tree/main/ocpmodels/models/equiformer_v2) and used in [Open Catalyst demo](https://open-catalyst.metademolab.com/).
+Additionally, EquiformerV2 has been incorporated into [OCP repository](https://github.com/FAIR-Chem/fairchem/tree/main/src/fairchem/core/models/equiformer_v2) and used in [Open Catalyst demo](https://open-catalyst.metademolab.com/).
 
 
 <p align="center">
