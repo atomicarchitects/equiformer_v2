@@ -111,6 +111,8 @@ Please refer to [here](docs/changelog.md).
     ```
     The above script uses 8 nodes with 8 GPUs on each node.
     
+4. We can train EquiformerV2 with **DeNS** (**De**noising **N**on-Equilibrium **S**tructures) as an auxiliary task to further improve the performance on energy and force predictions. Please refer to the [code](https://github.com/atomicarchitects/DeNS) for details.
+
 
 ## File Structure ##
 
