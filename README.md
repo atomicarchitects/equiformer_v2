@@ -7,6 +7,9 @@ We provide the code for training the base model setting on the OC20 S2EF-2M and 
 
 Additionally, EquiformerV2 has been incorporated into [OCP repository](https://github.com/FAIR-Chem/fairchem/tree/main/src/fairchem/core/models/equiformer_v2) and used in [Open Catalyst demo](https://open-catalyst.metademolab.com/).
 
+In our subsequent [work](https://arxiv.org/abs/2403.09549), we find that we can generalize self-supervised learning similar to BERT, which we call **DeNS** (**De**noising **N**on-Equilibrium **S**tructures), to 3D atomistic systems to improve the performance of energy and force predictions. 
+Please refer to the [paper](https://arxiv.org/abs/2403.09549) and the [code](https://github.com/atomicarchitects/DeNS) for further details.
+
 
 <p align="center">
 	<img src="fig/equiformer_v2.png" alt="photo not available" width="98%" height="98%">
