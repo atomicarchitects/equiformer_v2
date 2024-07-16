@@ -1,6 +1,10 @@
 # Changelog
 
 
+## July 15 2024
+- Add link to [DeNS](https://arxiv.org/abs/2403.09549).
+
+
 ## July 28 2023
 - EquiformerV2 has been incorporated into OCP repository and used in Open Catalyst demo.
 
