@@ -390,7 +390,6 @@ class EquiformerV2_OC20(BaseModel):
         ###############################################################
 
         # Init per node representations using an atomic number based embedding
-        offset = 0
         x = SO3_Embedding(
             num_atoms,
             self.lmax_list,
