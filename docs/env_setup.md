@@ -18,14 +18,14 @@
 
 - After setting up the environment, clone OC20 GitHub repository:
 ```
-    git clone https://github.com/Open-Catalyst-Project/ocp
+    git clone https://github.com/FAIR-Chem/fairchem.git
     cd ocp
-    git checkout 5a7738f
+    git checkout f83d150
 ```
 
-- The correpsonding version of OC20 GitHub repository is [here](https://github.com/Open-Catalyst-Project/ocp/tree/5a7738f9aa80b1a9a7e0ca15e33938b4d2557edd).
+- The correpsonding version of OC20 GitHub repository is [here](https://github.com/FAIR-Chem/fairchem/tree/f83d150b5fcb940b814f25043fb00914945b8708).
 
-- We need to modify `ocp/ocpmodels/common/utils.py` and add the following two lines after [Line 329](https://github.com/Open-Catalyst-Project/ocp/blob/5a7738f9aa80b1a9a7e0ca15e33938b4d2557edd/ocpmodels/common/utils.py#L329) as shown below:
+- We need to modify `ocp/ocpmodels/common/utils.py` and add the following two lines after [Line 329](https://github.com/FAIR-Chem/fairchem/blob/f83d150b5fcb940b814f25043fb00914945b8708/ocpmodels/common/utils.py#L329) as shown below:
 ```diff
     finally:
 +       import nets
